@@ -1,0 +1,5 @@
+D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles/stm32f4xx_tftlcd.elf.dir
+D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles/package.dir
+D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles/package_source.dir
+D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles/edit_cache.dir
+D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles/rebuild_cache.dir
