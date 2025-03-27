@@ -1,5 +1,5 @@
-CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/main.c.obj: \
- D:/work_code/stm32f4xx_tftlcd/src/Core/Src/main.c \
+CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/bsp.c.obj: \
+ D:/work_code/stm32f4xx_tftlcd/src/Core/bsp/bsp.c \
  D:/work_code/stm32f4xx_tftlcd/src/Core/bsp/bsp.h \
  D:/work_code/stm32f4xx_tftlcd/src/Core/Inc/main.h \
  D:/work_code/stm32f4xx_tftlcd/src/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \

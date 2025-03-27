@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/gpio.c.obj"
-  "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/gpio.c.obj.d"
   "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/main.c.obj"
   "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/main.c.obj.d"
   "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/stm32f4xx_hal_msp.c.obj"
@@ -14,6 +12,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/system_stm32f4xx.c.obj"
   "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/system_stm32f4xx.c.obj.d"
   "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Startup/startup_stm32f407igtx.s.obj"
+  "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/Src/bsp_timer.c.obj"
+  "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/Src/bsp_timer.c.obj.d"
+  "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/bsp.c.obj"
+  "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/bsp.c.obj.d"
   "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
   "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj.d"
   "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"

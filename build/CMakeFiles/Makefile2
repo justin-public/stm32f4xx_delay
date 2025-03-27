@@ -81,12 +81,12 @@ clean: CMakeFiles/stm32f4xx_tftlcd.elf.dir/clean
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32f4xx_tftlcd.elf.dir/build.make CMakeFiles/stm32f4xx_tftlcd.elf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32f4xx_tftlcd.elf.dir/build.make CMakeFiles/stm32f4xx_tftlcd.elf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 "Built target stm32f4xx_tftlcd.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23 "Built target stm32f4xx_tftlcd.elf"
 .PHONY : CMakeFiles/stm32f4xx_tftlcd.elf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/stm32f4xx_tftlcd.elf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles 0
 .PHONY : CMakeFiles/stm32f4xx_tftlcd.elf.dir/rule

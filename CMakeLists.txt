@@ -16,6 +16,8 @@ file(GLOB SRC_FILES CONFIGURE_DEPENDS
 # 해당 폴더를 포함해서 하위 폴더까지의 파일도 찾는다.
 file(GLOB_RECURSE SRC_FILES_RECURSE CONFIGURE_DEPENDS
   src/Core/*.c
+  src/Core/bsp/*.c
+  src/Core/bsp/Src/*.c
   src/Drivers/*.c
 )
 
@@ -33,8 +35,10 @@ target_compile_definitions(${EXECUTABLE} PRIVATE
 
 # List of includ directories
 target_include_directories(${EXECUTABLE} PRIVATE
-  src 
+  src
   src/Core/Inc
+  src/Core/bsp
+  src/Core/bsp/Inc
   src/Drivers/CMSIS/Device/ST/STM32F4xx/Include
   src/Drivers/CMSIS/Include
   src/Drivers/STM32F4xx_HAL_Driver/Inc

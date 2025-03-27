@@ -21,6 +21,8 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "D:/work_code/stm32f4xx_tftlcd/src"
   "D:/work_code/stm32f4xx_tftlcd/src/Core/Inc"
+  "D:/work_code/stm32f4xx_tftlcd/src/Core/bsp"
+  "D:/work_code/stm32f4xx_tftlcd/src/Core/bsp/Inc"
   "D:/work_code/stm32f4xx_tftlcd/src/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
   "D:/work_code/stm32f4xx_tftlcd/src/Drivers/CMSIS/Include"
   "D:/work_code/stm32f4xx_tftlcd/src/Drivers/STM32F4xx_HAL_Driver/Inc"
@@ -28,13 +30,14 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/work_code/stm32f4xx_tftlcd/src/Core/Src/gpio.c" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/gpio.c.obj" "gcc" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/gpio.c.obj.d"
   "D:/work_code/stm32f4xx_tftlcd/src/Core/Src/main.c" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/main.c.obj" "gcc" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/main.c.obj.d"
   "D:/work_code/stm32f4xx_tftlcd/src/Core/Src/stm32f4xx_hal_msp.c" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/stm32f4xx_hal_msp.c.obj" "gcc" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/stm32f4xx_hal_msp.c.obj.d"
   "D:/work_code/stm32f4xx_tftlcd/src/Core/Src/stm32f4xx_it.c" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/stm32f4xx_it.c.obj" "gcc" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/stm32f4xx_it.c.obj.d"
   "D:/work_code/stm32f4xx_tftlcd/src/Core/Src/syscalls.c" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/syscalls.c.obj" "gcc" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/syscalls.c.obj.d"
   "D:/work_code/stm32f4xx_tftlcd/src/Core/Src/sysmem.c" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/sysmem.c.obj" "gcc" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/sysmem.c.obj.d"
   "D:/work_code/stm32f4xx_tftlcd/src/Core/Src/system_stm32f4xx.c" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/system_stm32f4xx.c.obj" "gcc" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/system_stm32f4xx.c.obj.d"
+  "D:/work_code/stm32f4xx_tftlcd/src/Core/bsp/Src/bsp_timer.c" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/Src/bsp_timer.c.obj" "gcc" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/Src/bsp_timer.c.obj.d"
+  "D:/work_code/stm32f4xx_tftlcd/src/Core/bsp/bsp.c" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/bsp.c.obj" "gcc" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/bsp.c.obj.d"
   "D:/work_code/stm32f4xx_tftlcd/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" "gcc" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj.d"
   "D:/work_code/stm32f4xx_tftlcd/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj" "gcc" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj.d"
   "D:/work_code/stm32f4xx_tftlcd/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj" "gcc" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj.d"

@@ -150,30 +150,6 @@ stm32f4xx_tftlcd.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32f4xx_tftlcd.elf.dir/build.make CMakeFiles/stm32f4xx_tftlcd.elf.dir/build
 .PHONY : stm32f4xx_tftlcd.elf/fast
 
-src/Core/Src/gpio.obj: src/Core/Src/gpio.c.obj
-.PHONY : src/Core/Src/gpio.obj
-
-# target to build an object file
-src/Core/Src/gpio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32f4xx_tftlcd.elf.dir/build.make CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/gpio.c.obj
-.PHONY : src/Core/Src/gpio.c.obj
-
-src/Core/Src/gpio.i: src/Core/Src/gpio.c.i
-.PHONY : src/Core/Src/gpio.i
-
-# target to preprocess a source file
-src/Core/Src/gpio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32f4xx_tftlcd.elf.dir/build.make CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/gpio.c.i
-.PHONY : src/Core/Src/gpio.c.i
-
-src/Core/Src/gpio.s: src/Core/Src/gpio.c.s
-.PHONY : src/Core/Src/gpio.s
-
-# target to generate assembly for a file
-src/Core/Src/gpio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32f4xx_tftlcd.elf.dir/build.make CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/gpio.c.s
-.PHONY : src/Core/Src/gpio.c.s
-
 src/Core/Src/main.obj: src/Core/Src/main.c.obj
 .PHONY : src/Core/Src/main.obj
 
@@ -325,6 +301,54 @@ src/Core/Startup/startup_stm32f407igtx.obj: src/Core/Startup/startup_stm32f407ig
 src/Core/Startup/startup_stm32f407igtx.s.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32f4xx_tftlcd.elf.dir/build.make CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Startup/startup_stm32f407igtx.s.obj
 .PHONY : src/Core/Startup/startup_stm32f407igtx.s.obj
+
+src/Core/bsp/Src/bsp_timer.obj: src/Core/bsp/Src/bsp_timer.c.obj
+.PHONY : src/Core/bsp/Src/bsp_timer.obj
+
+# target to build an object file
+src/Core/bsp/Src/bsp_timer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32f4xx_tftlcd.elf.dir/build.make CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/Src/bsp_timer.c.obj
+.PHONY : src/Core/bsp/Src/bsp_timer.c.obj
+
+src/Core/bsp/Src/bsp_timer.i: src/Core/bsp/Src/bsp_timer.c.i
+.PHONY : src/Core/bsp/Src/bsp_timer.i
+
+# target to preprocess a source file
+src/Core/bsp/Src/bsp_timer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32f4xx_tftlcd.elf.dir/build.make CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/Src/bsp_timer.c.i
+.PHONY : src/Core/bsp/Src/bsp_timer.c.i
+
+src/Core/bsp/Src/bsp_timer.s: src/Core/bsp/Src/bsp_timer.c.s
+.PHONY : src/Core/bsp/Src/bsp_timer.s
+
+# target to generate assembly for a file
+src/Core/bsp/Src/bsp_timer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32f4xx_tftlcd.elf.dir/build.make CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/Src/bsp_timer.c.s
+.PHONY : src/Core/bsp/Src/bsp_timer.c.s
+
+src/Core/bsp/bsp.obj: src/Core/bsp/bsp.c.obj
+.PHONY : src/Core/bsp/bsp.obj
+
+# target to build an object file
+src/Core/bsp/bsp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32f4xx_tftlcd.elf.dir/build.make CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/bsp.c.obj
+.PHONY : src/Core/bsp/bsp.c.obj
+
+src/Core/bsp/bsp.i: src/Core/bsp/bsp.c.i
+.PHONY : src/Core/bsp/bsp.i
+
+# target to preprocess a source file
+src/Core/bsp/bsp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32f4xx_tftlcd.elf.dir/build.make CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/bsp.c.i
+.PHONY : src/Core/bsp/bsp.c.i
+
+src/Core/bsp/bsp.s: src/Core/bsp/bsp.c.s
+.PHONY : src/Core/bsp/bsp.s
+
+# target to generate assembly for a file
+src/Core/bsp/bsp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32f4xx_tftlcd.elf.dir/build.make CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/bsp.c.s
+.PHONY : src/Core/bsp/bsp.c.s
 
 src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj: src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 .PHONY : src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj
@@ -649,9 +673,6 @@ help:
 	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... stm32f4xx_tftlcd.elf"
-	@echo "... src/Core/Src/gpio.obj"
-	@echo "... src/Core/Src/gpio.i"
-	@echo "... src/Core/Src/gpio.s"
 	@echo "... src/Core/Src/main.obj"
 	@echo "... src/Core/Src/main.i"
 	@echo "... src/Core/Src/main.s"
@@ -671,6 +692,12 @@ help:
 	@echo "... src/Core/Src/system_stm32f4xx.i"
 	@echo "... src/Core/Src/system_stm32f4xx.s"
 	@echo "... src/Core/Startup/startup_stm32f407igtx.obj"
+	@echo "... src/Core/bsp/Src/bsp_timer.obj"
+	@echo "... src/Core/bsp/Src/bsp_timer.i"
+	@echo "... src/Core/bsp/Src/bsp_timer.s"
+	@echo "... src/Core/bsp/bsp.obj"
+	@echo "... src/Core/bsp/bsp.i"
+	@echo "... src/Core/bsp/bsp.s"
 	@echo "... src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj"
 	@echo "... src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.i"
 	@echo "... src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.s"

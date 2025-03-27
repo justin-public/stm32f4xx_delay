@@ -14,13 +14,35 @@ endif()
 # SRC_FILES_RECURSE at CMakeLists.txt:17 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/work_code/stm32f4xx_tftlcd/src/Core/*.c")
 set(OLD_GLOB
-  "D:/work_code/stm32f4xx_tftlcd/src/Core/Src/gpio.c"
   "D:/work_code/stm32f4xx_tftlcd/src/Core/Src/main.c"
   "D:/work_code/stm32f4xx_tftlcd/src/Core/Src/stm32f4xx_hal_msp.c"
   "D:/work_code/stm32f4xx_tftlcd/src/Core/Src/stm32f4xx_it.c"
   "D:/work_code/stm32f4xx_tftlcd/src/Core/Src/syscalls.c"
   "D:/work_code/stm32f4xx_tftlcd/src/Core/Src/sysmem.c"
   "D:/work_code/stm32f4xx_tftlcd/src/Core/Src/system_stm32f4xx.c"
+  "D:/work_code/stm32f4xx_tftlcd/src/Core/bsp/Src/bsp_timer.c"
+  "D:/work_code/stm32f4xx_tftlcd/src/Core/bsp/bsp.c"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles/cmake.verify_globs")
+endif()
+
+# SRC_FILES_RECURSE at CMakeLists.txt:17 (file)
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/work_code/stm32f4xx_tftlcd/src/Core/bsp/*.c")
+set(OLD_GLOB
+  "D:/work_code/stm32f4xx_tftlcd/src/Core/bsp/Src/bsp_timer.c"
+  "D:/work_code/stm32f4xx_tftlcd/src/Core/bsp/bsp.c"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles/cmake.verify_globs")
+endif()
+
+# SRC_FILES_RECURSE at CMakeLists.txt:17 (file)
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/work_code/stm32f4xx_tftlcd/src/Core/bsp/Src/*.c")
+set(OLD_GLOB
+  "D:/work_code/stm32f4xx_tftlcd/src/Core/bsp/Src/bsp_timer.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

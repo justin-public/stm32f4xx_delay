@@ -69,24 +69,10 @@ include CMakeFiles/stm32f4xx_tftlcd.elf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/stm32f4xx_tftlcd.elf.dir/flags.make
 
-CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/gpio.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/flags.make
-CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/gpio.c.obj: D:/work_code/stm32f4xx_tftlcd/src/Core/Src/gpio.c
-CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/gpio.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/gpio.c.obj"
-	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/gpio.c.obj -MF CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/gpio.c.obj.d -o CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/gpio.c.obj -c D:/work_code/stm32f4xx_tftlcd/src/Core/Src/gpio.c
-
-CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/gpio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/gpio.c.i"
-	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:/work_code/stm32f4xx_tftlcd/src/Core/Src/gpio.c > CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/gpio.c.i
-
-CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/gpio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/gpio.c.s"
-	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:/work_code/stm32f4xx_tftlcd/src/Core/Src/gpio.c -o CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/gpio.c.s
-
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/main.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/flags.make
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/main.c.obj: D:/work_code/stm32f4xx_tftlcd/src/Core/Src/main.c
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/main.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/main.c.obj"
 	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/main.c.obj -MF CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/main.c.obj.d -o CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/main.c.obj -c D:/work_code/stm32f4xx_tftlcd/src/Core/Src/main.c
 
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/main.c.i: cmake_force
@@ -100,7 +86,7 @@ CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/main.c.s: cmake_force
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/flags.make
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/stm32f4xx_hal_msp.c.obj: D:/work_code/stm32f4xx_tftlcd/src/Core/Src/stm32f4xx_hal_msp.c
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/stm32f4xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/stm32f4xx_hal_msp.c.obj"
 	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/stm32f4xx_hal_msp.c.obj -MF CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/stm32f4xx_hal_msp.c.obj.d -o CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/stm32f4xx_hal_msp.c.obj -c D:/work_code/stm32f4xx_tftlcd/src/Core/Src/stm32f4xx_hal_msp.c
 
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/stm32f4xx_hal_msp.c.i: cmake_force
@@ -114,7 +100,7 @@ CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/stm32f4xx_hal_msp.c.s: cmake_fo
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/flags.make
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/stm32f4xx_it.c.obj: D:/work_code/stm32f4xx_tftlcd/src/Core/Src/stm32f4xx_it.c
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/stm32f4xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/stm32f4xx_it.c.obj"
 	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/stm32f4xx_it.c.obj -MF CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/stm32f4xx_it.c.obj.d -o CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/stm32f4xx_it.c.obj -c D:/work_code/stm32f4xx_tftlcd/src/Core/Src/stm32f4xx_it.c
 
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/stm32f4xx_it.c.i: cmake_force
@@ -128,7 +114,7 @@ CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/stm32f4xx_it.c.s: cmake_force
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/syscalls.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/flags.make
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/syscalls.c.obj: D:/work_code/stm32f4xx_tftlcd/src/Core/Src/syscalls.c
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/syscalls.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/syscalls.c.obj"
 	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/syscalls.c.obj -MF CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/syscalls.c.obj.d -o CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/syscalls.c.obj -c D:/work_code/stm32f4xx_tftlcd/src/Core/Src/syscalls.c
 
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/syscalls.c.i: cmake_force
@@ -142,7 +128,7 @@ CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/syscalls.c.s: cmake_force
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/sysmem.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/flags.make
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/sysmem.c.obj: D:/work_code/stm32f4xx_tftlcd/src/Core/Src/sysmem.c
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/sysmem.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/sysmem.c.obj"
 	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/sysmem.c.obj -MF CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/sysmem.c.obj.d -o CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/sysmem.c.obj -c D:/work_code/stm32f4xx_tftlcd/src/Core/Src/sysmem.c
 
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/sysmem.c.i: cmake_force
@@ -156,7 +142,7 @@ CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/sysmem.c.s: cmake_force
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/flags.make
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/system_stm32f4xx.c.obj: D:/work_code/stm32f4xx_tftlcd/src/Core/Src/system_stm32f4xx.c
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/system_stm32f4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/system_stm32f4xx.c.obj"
 	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/system_stm32f4xx.c.obj -MF CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/system_stm32f4xx.c.obj.d -o CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/system_stm32f4xx.c.obj -c D:/work_code/stm32f4xx_tftlcd/src/Core/Src/system_stm32f4xx.c
 
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/system_stm32f4xx.c.i: cmake_force
@@ -167,10 +153,38 @@ CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/system_stm32f4xx.c.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/system_stm32f4xx.c.s"
 	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:/work_code/stm32f4xx_tftlcd/src/Core/Src/system_stm32f4xx.c -o CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/system_stm32f4xx.c.s
 
+CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/Src/bsp_timer.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/flags.make
+CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/Src/bsp_timer.c.obj: D:/work_code/stm32f4xx_tftlcd/src/Core/bsp/Src/bsp_timer.c
+CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/Src/bsp_timer.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/Src/bsp_timer.c.obj"
+	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/Src/bsp_timer.c.obj -MF CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/Src/bsp_timer.c.obj.d -o CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/Src/bsp_timer.c.obj -c D:/work_code/stm32f4xx_tftlcd/src/Core/bsp/Src/bsp_timer.c
+
+CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/Src/bsp_timer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/Src/bsp_timer.c.i"
+	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:/work_code/stm32f4xx_tftlcd/src/Core/bsp/Src/bsp_timer.c > CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/Src/bsp_timer.c.i
+
+CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/Src/bsp_timer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/Src/bsp_timer.c.s"
+	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:/work_code/stm32f4xx_tftlcd/src/Core/bsp/Src/bsp_timer.c -o CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/Src/bsp_timer.c.s
+
+CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/bsp.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/flags.make
+CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/bsp.c.obj: D:/work_code/stm32f4xx_tftlcd/src/Core/bsp/bsp.c
+CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/bsp.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/bsp.c.obj"
+	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/bsp.c.obj -MF CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/bsp.c.obj.d -o CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/bsp.c.obj -c D:/work_code/stm32f4xx_tftlcd/src/Core/bsp/bsp.c
+
+CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/bsp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/bsp.c.i"
+	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:/work_code/stm32f4xx_tftlcd/src/Core/bsp/bsp.c > CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/bsp.c.i
+
+CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/bsp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/bsp.c.s"
+	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:/work_code/stm32f4xx_tftlcd/src/Core/bsp/bsp.c -o CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/bsp.c.s
+
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/flags.make
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: D:/work_code/stm32f4xx_tftlcd/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
 	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -MF CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj.d -o CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -c D:/work_code/stm32f4xx_tftlcd/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
@@ -184,7 +198,7 @@ CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/flags.make
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: D:/work_code/stm32f4xx_tftlcd/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
 	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -MF CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj.d -o CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -c D:/work_code/stm32f4xx_tftlcd/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
@@ -198,7 +212,7 @@ CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/flags.make
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: D:/work_code/stm32f4xx_tftlcd/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
 	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -MF CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj.d -o CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -c D:/work_code/stm32f4xx_tftlcd/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
@@ -212,7 +226,7 @@ CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/flags.make
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: D:/work_code/stm32f4xx_tftlcd/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
 	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -MF CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj.d -o CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -c D:/work_code/stm32f4xx_tftlcd/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
@@ -226,7 +240,7 @@ CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/flags.make
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: D:/work_code/stm32f4xx_tftlcd/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
 	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -MF CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj.d -o CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -c D:/work_code/stm32f4xx_tftlcd/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
 
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
@@ -240,7 +254,7 @@ CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/flags.make
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: D:/work_code/stm32f4xx_tftlcd/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
 	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -MF CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj.d -o CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -c D:/work_code/stm32f4xx_tftlcd/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
@@ -254,7 +268,7 @@ CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/flags.make
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: D:/work_code/stm32f4xx_tftlcd/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
 	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -MF CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj.d -o CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -c D:/work_code/stm32f4xx_tftlcd/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
@@ -268,7 +282,7 @@ CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/flags.make
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: D:/work_code/stm32f4xx_tftlcd/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
 	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -c D:/work_code/stm32f4xx_tftlcd/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -282,7 +296,7 @@ CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/flags.make
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: D:/work_code/stm32f4xx_tftlcd/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
 	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -MF CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj.d -o CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -c D:/work_code/stm32f4xx_tftlcd/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
@@ -296,7 +310,7 @@ CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/flags.make
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: D:/work_code/stm32f4xx_tftlcd/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
 	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -MF CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj.d -o CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -c D:/work_code/stm32f4xx_tftlcd/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
@@ -310,7 +324,7 @@ CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/flags.make
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: D:/work_code/stm32f4xx_tftlcd/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
 	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -MF CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj.d -o CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -c D:/work_code/stm32f4xx_tftlcd/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
@@ -324,7 +338,7 @@ CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/flags.make
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: D:/work_code/stm32f4xx_tftlcd/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
 	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -MF CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj.d -o CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -c D:/work_code/stm32f4xx_tftlcd/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
@@ -338,7 +352,7 @@ CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/flags.make
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: D:/work_code/stm32f4xx_tftlcd/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
 	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -MF CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj.d -o CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -c D:/work_code/stm32f4xx_tftlcd/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
@@ -351,7 +365,7 @@ CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4
 
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Startup/startup_stm32f407igtx.s.obj: CMakeFiles/stm32f4xx_tftlcd.elf.dir/flags.make
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Startup/startup_stm32f407igtx.s.obj: D:/work_code/stm32f4xx_tftlcd/src/Core/Startup/startup_stm32f407igtx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building ASM object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Startup/startup_stm32f407igtx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building ASM object CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Startup/startup_stm32f407igtx.s.obj"
 	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Startup/startup_stm32f407igtx.s.obj -c D:/work_code/stm32f4xx_tftlcd/src/Core/Startup/startup_stm32f407igtx.s
 
 CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Startup/startup_stm32f407igtx.s.i: cmake_force
@@ -364,13 +378,14 @@ CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Startup/startup_stm32f407igtx.s.s: 
 
 # Object files for target stm32f4xx_tftlcd.elf
 stm32f4xx_tftlcd_elf_OBJECTS = \
-"CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/gpio.c.obj" \
 "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/main.c.obj" \
 "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/stm32f4xx_hal_msp.c.obj" \
 "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/stm32f4xx_it.c.obj" \
 "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/syscalls.c.obj" \
 "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/sysmem.c.obj" \
 "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/system_stm32f4xx.c.obj" \
+"CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/Src/bsp_timer.c.obj" \
+"CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/bsp.c.obj" \
 "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" \
 "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj" \
 "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj" \
@@ -389,13 +404,14 @@ stm32f4xx_tftlcd_elf_OBJECTS = \
 # External object files for target stm32f4xx_tftlcd.elf
 stm32f4xx_tftlcd_elf_EXTERNAL_OBJECTS =
 
-stm32f4xx_tftlcd.elf: CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/gpio.c.obj
 stm32f4xx_tftlcd.elf: CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/main.c.obj
 stm32f4xx_tftlcd.elf: CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/stm32f4xx_hal_msp.c.obj
 stm32f4xx_tftlcd.elf: CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/stm32f4xx_it.c.obj
 stm32f4xx_tftlcd.elf: CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/syscalls.c.obj
 stm32f4xx_tftlcd.elf: CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/sysmem.c.obj
 stm32f4xx_tftlcd.elf: CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/system_stm32f4xx.c.obj
+stm32f4xx_tftlcd.elf: CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/Src/bsp_timer.c.obj
+stm32f4xx_tftlcd.elf: CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/bsp.c.obj
 stm32f4xx_tftlcd.elf: CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 stm32f4xx_tftlcd.elf: CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
 stm32f4xx_tftlcd.elf: CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
@@ -411,7 +427,7 @@ stm32f4xx_tftlcd.elf: CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_
 stm32f4xx_tftlcd.elf: CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
 stm32f4xx_tftlcd.elf: CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Startup/startup_stm32f407igtx.s.obj
 stm32f4xx_tftlcd.elf: CMakeFiles/stm32f4xx_tftlcd.elf.dir/build.make
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking C executable stm32f4xx_tftlcd.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:/work_code/stm32f4xx_tftlcd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking C executable stm32f4xx_tftlcd.elf"
 	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe -g -TD:/work_code/stm32f4xx_tftlcd/src/STM32F407IGTX_FLASH.ld -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -specs=nano.specs -lc -lm -Wl,-Map=stm32f4xx_tftlcd.map,--cref -Wl,--gc-sections -Xlinker -print-memory-usage $(stm32f4xx_tftlcd_elf_OBJECTS) $(stm32f4xx_tftlcd_elf_EXTERNAL_OBJECTS) -o stm32f4xx_tftlcd.elf 
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Generating .bin and .hex files"
 	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-objcopy -O binary stm32f4xx_tftlcd.elf stm32f4xx_tftlcd.bin
