@@ -33,7 +33,10 @@ int main(void)
 
   while (1)
   {
-    
+    bsp_LedOn(1);
+    bsp_DelayMS(500);
+    bsp_LedOff(1);
+    bsp_DelayMS(500);
   }  
 }
 

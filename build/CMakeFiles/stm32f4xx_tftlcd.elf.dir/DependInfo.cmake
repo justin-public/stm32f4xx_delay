@@ -36,6 +36,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/work_code/stm32f4xx_tftlcd/src/Core/Src/syscalls.c" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/syscalls.c.obj" "gcc" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/syscalls.c.obj.d"
   "D:/work_code/stm32f4xx_tftlcd/src/Core/Src/sysmem.c" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/sysmem.c.obj" "gcc" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/sysmem.c.obj.d"
   "D:/work_code/stm32f4xx_tftlcd/src/Core/Src/system_stm32f4xx.c" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/system_stm32f4xx.c.obj" "gcc" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/system_stm32f4xx.c.obj.d"
+  "D:/work_code/stm32f4xx_tftlcd/src/Core/bsp/Src/bsp_led.c" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/Src/bsp_led.c.obj" "gcc" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/Src/bsp_led.c.obj.d"
   "D:/work_code/stm32f4xx_tftlcd/src/Core/bsp/Src/bsp_timer.c" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/Src/bsp_timer.c.obj" "gcc" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/Src/bsp_timer.c.obj.d"
   "D:/work_code/stm32f4xx_tftlcd/src/Core/bsp/bsp.c" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/bsp.c.obj" "gcc" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/bsp.c.obj.d"
   "D:/work_code/stm32f4xx_tftlcd/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" "gcc" "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj.d"

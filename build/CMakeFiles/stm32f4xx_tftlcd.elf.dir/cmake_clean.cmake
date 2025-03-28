@@ -12,6 +12,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/system_stm32f4xx.c.obj"
   "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/system_stm32f4xx.c.obj.d"
   "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Startup/startup_stm32f407igtx.s.obj"
+  "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/Src/bsp_led.c.obj"
+  "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/Src/bsp_led.c.obj.d"
   "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/Src/bsp_timer.c.obj"
   "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/Src/bsp_timer.c.obj.d"
   "CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/bsp/bsp.c.obj"

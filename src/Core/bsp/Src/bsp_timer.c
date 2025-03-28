@@ -6,6 +6,12 @@ static volatile uint8_t s_ucTimeOutFlag = 0;
 /*구조체를 통해서 s_tTmr 4개의 타이머에 한개씩 고유 정보를 저장*/
 static SOFT_TMR s_tTmr[TMR_COUNT];
 
+__IO int32_t g_iRunTime = 0;
+
+/*이 코드 내부에서만 사용하는 함수들을 선언*/
+static void bsp_SoftTimerDec(SOFT_TMR *_tmr);
+
+
 /*
 *********************************************************************************************************
 * 함수 이름: bsp_InitTimer
@@ -26,9 +32,11 @@ void bsp_InitTimer(void)
         s_tTmr[i].Mode = TMR_ONCE_MODE; 
     }
     /*SystemCoreClock 를 168MHz 로 할경우 1000Hz 1ms(1/1000초) 주기를 가짐 
-      결론적으로 168,000 클록 사이클마다 한번 인터럽트가 발생하는 타이머 초기화 
+      1ms 주기당 168,000 클록 사이클 동작
+      초당 1000번에 인터럽트가 발생
+      각 인터럽트 사이 간격 1ms 
     */
-    SysTick_Config(SystemCoreClock/1000);
+    SysTick_Config(SystemCoreClock/1000);   
 }
 
 /*
@@ -39,16 +47,65 @@ void bsp_InitTimer(void)
 * 반환 값: 없음
 *********************************************************************************************************
 */
-#if 0
+extern void bsp_RunPer1ms(void);
+extern void bsp_RunPer10ms(void);
+
 void SysTick_ISR(void)
 {
-    static uint8_t s_sount = 0;
-    uint8_t i;
+    //static uint8_t s_sount = 0;
+    //uint8_t i;
 
-    //if()
+    if(s_uiDelayCount > 0)
+    {
+        if(--s_uiDelayCount == 0)     
+        {
+            s_ucTimeOutFlag = 1;
+        }    
+    }
+#if 0    
+    for(i=0; i<TMR_COUNT; i++)
+    {
+        bsp_SoftTimerDec(&s_tTmr[i]);
+    }
+
+    g_iRunTime++;
+    if (g_iRunTime == 0x7FFFFFFF)
+    {
+        g_iRunTime = 0;
+    }
+
+    if(++s_sount >= 10)
+    {
+        s_sount = 0;
+    }
+#endif    
+}
+
+/*
+*********************************************************************************************************
+* 함수 이름: bsp_SoftTimerDec
+* 기능 설명: 매 1ms마다 모든 타이머 변수를 1씩 감소. SysTick_ISR 주기적으로 호출됨.
+* 형 매개: SOFT_TMR *_tmr 타이머 변수 관련 정보 
+* 반환 값: 없음
+*********************************************************************************************************
+*/
+#if 0
+static void bsp_SoftTimerDec(SOFT_TMR *_tmr)
+{
+    if(_tmr->Count > 0)
+    {
+        if (--_tmr->Count == 0)
+        {
+            _tmr->Flag = 1;
+
+            if(_tmr->Mode == TMR_AUTO_MODE)
+            {
+                _tmr->Count = _tmr->PreLoad;
+            }
+        }
+    }
 }
 #endif
-
 /*
 *********************************************************************************************************
 * 함수 이름: bsp_DelayMS
@@ -68,12 +125,12 @@ void bsp_DelayMS(uint32_t n)
     }
     DISABLE_INT();          // 인터럽트 비활성화
 
-    s_uiDelayCount = n;
-    s_ucTimeOutFlag = 0;
+    s_uiDelayCount = n;     // 1000 ms
+    //s_ucTimeOutFlag = 0;
 
     ENABLE_INT();          // 인터럽트 활성화
-    
-    while(1)
+
+    while(s_uiDelayCount > 0)
     {
         if (s_ucTimeOutFlag == 1){
             s_ucTimeOutFlag = 0;

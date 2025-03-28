@@ -63,4 +63,5 @@ CMakeFiles/stm32f4xx_tftlcd.elf.dir/src/Core/Src/main.c.obj: \
  d:\tools\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_locale.h \
  d:\tools\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\strings.h \
  d:\tools\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\string.h \
- D:/work_code/stm32f4xx_tftlcd/src/Core/bsp/Inc/bsp_timer.h
+ D:/work_code/stm32f4xx_tftlcd/src/Core/bsp/Inc/bsp_timer.h \
+ D:/work_code/stm32f4xx_tftlcd/src/Core/bsp/Inc/bsp_led.h
