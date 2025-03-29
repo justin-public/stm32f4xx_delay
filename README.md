@@ -1,4 +1,4 @@
-# STM32Fxx 펌웨어 시리즈
+# STM32Fxx 펌웨어 시리즈 - delay
 ## Target : STM32F407IGT6
 ## Compile : stm32cudeide / cmake
 ## Edit : Visual studio code
